@@ -3,14 +3,14 @@
 # Name: Aparna Sud
 
 Explain what each of the following lines does. Use the terminology you learned from the book (or Google)
-  
+	
 	from TurtleWorld import *
 	world = TurtleWorld()
 	bob = Turtle()
 	wait_for_user()
 
 Answer: Imports the module TurtleWorld
-		Defines the specific "world" and turtle being used 
+	Defines the specific "world" and turtle being used 
 
 
 These questions pertain to the program you wrote in Week0.
@@ -25,7 +25,7 @@ Answer: fd and lt =
 		lt(Turtle, angle)
 
 -- What are the arguments for polyline?  What type is each argument?
-Answer: Not sure how to set up polyline function. 
+Answer: (t, n, distance, angle) = (string, int, int, float)
 	
 Suppose you wrote a function, center_circle(), that draws a circle of a given radius around the current location of the turtle and restores the turtle to its starting point.
 
